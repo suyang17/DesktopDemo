@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 emitter.onNext("haha");
                 emitter.onNext("haha");
                 emitter.onNext("haha");
+                emitter.onNext("waha");
                 emitter.onComplete();
             }
         }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());
