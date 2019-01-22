@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView txt;
     private ActivityMainBinding mainBinding;
     private WebView webView;
+	 private WebView webView1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
